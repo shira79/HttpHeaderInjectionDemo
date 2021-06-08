@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: nouphet/docker-php4
+    volumes:
+      - ./html:/var/www/html
+    ports:
+      - "80:80"
